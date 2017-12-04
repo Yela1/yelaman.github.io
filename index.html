@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Final project</title>
+
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<ul class="topnav" id="myTopnav">
+      <li><a href="index.html" class="active">Все категории</a></li>
+      <li><a href="index.html" >Романтика</a></li>
+      <li><a href="index.html" >Триллер</a></li>
+      <li><a href="index.html" >Детектив</a></li>
+      <li><a href="index.html" >Фантастика</a></li>
+      <li><a href="index.html" >Фэнтэзи</a></li>
+      <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a></li>
+  </ul>
+	</div>
+	<div class="container" id="header">
+		<div class="row">
+			<div class="col-md-3 main-logo" style="padding-left: 0px; padding-right: 0;">
+				<a href="index.html">
+					<img class="header-logo" src="img/logo.png">
+				</a>
+			</div>
+			<div class="col-md-7 margin">
+				<form class="navbar-form navbar-search" role="search">
+	             	<div class="input-group">
+                    	<input type="text" class="form-control" placeholder="Search 7+ Million Books by Title, Author and Keyword" style="" > 
+		                <div class="input-group-btn ">
+		                    <button type="button" class="btn btn-search btn-info search">
+			                    <span class="glyphicon glyphicon-search"></span>
+			                    <span class="label-icon">Search</span>
+			                </button>
+		                </div>
+	               	</div>  
+	      		</form>   	    	
+	    	</div>
+			<div class="col-md-2 da">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-md-6 wish-list" style="">
+							<a href="cart.html">
+								<span><img src="img/cart.png" style="display: block;"></span>
+								<p class="heart">Корзина</p>
+							</a>
+						</div>
+						<div class="col-md-6 wish-list" style="padding-left: 1em;">
+							<a href="login.html">
+								<span><img src="img/login.png" style="display: block;" ></span>
+								<p class="heart">Войти</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="contianer-fluid">
+	<div class="menu-border">
+		<div class="container">
+			<div class="row" >
+				<div class="col-md-12 navbar" style="padding-bottom: 0;padding-top: 0;">
+					<div class="row">
+						<div class="menu-t"><a href="index.html"><p>Все категории</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Детские книги</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Подростковые</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Фантастика</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Романтика</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Триллер</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Учебники</p></a></div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="container-fluid" id="slider">
+		<div class="row">
+			<div class="col-md">
+        		<div id="block-for-slider">
+          			<div id="viewport">
+			             <ul id="slidewrapper">
+			                <li class="slide"><img src="img/book1.jpg" alt="1" class="slide-img img-fluid"></li>
+			                <li class="slide"><img src="img/book2.jpg" alt="2" class="slide-img img-fluid"></li>
+			                <li class="slide"><img src="img/book3.jpg" alt="3" class="slide-img img-fluid"></li>
+			            </ul>
+			            <div id="prev-next-btns">
+                			<div id="prev-btn"></div>
+                			<div id="next-btn"></div>
+            			</div>
+			            <ul id="nav-btns">
+			                <li class="slide-nav-btn"></li>
+			                <li class="slide-nav-btn"></li>
+			                <li class="slide-nav-btn"></li>
+			                
+			            </ul>
+          			</div>
+        		</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="reklama">
+		<div class="row">
+			<div class="col-md-4 ad">
+				<a href="service.html">
+					<span style="display: inline-block;">
+						<h5>CashBack</h5>
+						<div class="e">
+						<p>%3 от суммы</p>
+						</div>
+					</span>
+					<img src="img/right.png">
+				</a>
+			</div>
+			<div class="col-md-4 ad">
+				<a href="service.html">
+					<span style="display: inline-block;">
+						<h5>Расскажи друзьям</h5>
+						<div class="e">
+						<p>15% скидку на любую покупку</p>
+					    </div>
+					</span>
+					<img src="img/right.png">
+				</a>
+			</div>
+			<div class="col-md-4 ad">
+				<a href="service.html">
+					<span style="display: inline-block;">
+						<h5>ВыгодныеСделки</h5>
+						<div class="e"><p>2 по $7, 3 по $10, 4 по $12</p></div>
+					</span>
+					<img src="img/right.png">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="container genres" id="genr" style="margin-top: 1em;">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="img/book-for-children.jpg">
+					</div>
+					<div class="col-md genres-section">
+						<a href="main.html">
+							<h5>CHILDREN'S BOOKS</h5>
+							<div class="under-section">
+								<p>Growing Up</p>
+								<p>Older Childrens's</p>
+								<p>Younger Children's</p>
+								<p>Children's Animal Books</p>
+								<p>Kid's Sci-Fi & Fantasy</p>
+							</div>
+						</a>						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="img/book-for-teen.jpg">
+					</div>
+					<div class="col-md genres-section">
+						<a href="main.html">
+							<h5>TEEN & YOUNG ADULT</h5>
+							<div class="under-section">
+								<p>Teen Romance</p>
+								<p>Teen Horror</p>
+								<p>Teen Sci-Fi & Fantasy</p>
+								<p>Teen Hobbies</p>
+								<p>Teen Fiction</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="img/fantasy-books.jpg">
+					</div>
+					<div class="col-md genres-section">
+						<a href="main.html">
+							<h5>SCI-FI & FANTASY</h5>
+							<div class="under-section">
+								<p>Sci-Fi Books</p>
+								<p>Fantasy Books</p>
+								<p>Sci-Fi & Fantasy Humor</p>
+								<p>Historical Sci-Fi</p>
+								<p>Romantic Sci-Fi</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="container genres" style="margin-top: 3em;">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="img/romance.jpg">
+					</div>
+					<div class="col-md-7 genres-section">
+						<a href="main.html">
+							<h5>ROMANCE</h5>
+							<div class="under-section">
+								<p>Romantic Military Books</p>
+								<p>Romantic Mystery</p>
+								<p>Historical Romance</p>
+								<p>Contemporary Romance</p>
+								<p>Romantic Western</p>
+							</div>
+						</a>						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="img/thriller.jpg">
+					</div>
+					<div class="col-md-7 genres-section">
+						<a href="main.html">
+							<h5>MYSTERY & THRILLER</h5>
+							<div class="under-section">
+								<p>Crime</p>
+								<p>Spy Books</p>
+								<p>Suspense</p>
+								<p>Thrillers</p>
+								<p>Mystery</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="img/non-fiction.jpg">
+					</div>
+					<div class="col-md genres-section">
+						<a href="main.html">
+							<h5>NON-FICTION</h5>
+							<div class="under-section">
+								<p>Health & Fitness</p>
+								<p>Biographies</p>
+								<p>Business & Investing</p>
+								<p>Arts & Photography</p>
+								<p>Craft, Hobbies & Home</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="container genres" style="margin-top: 3em;padding-bottom: 3em; border-bottom: 1.5px solid rgba(192,192,192,0.8)">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="img/literature.jpg">
+					</div>
+					<div class="col-md genres-section">
+						<a href="main.html">
+							<h5>LITERATURE & FICTION</h5>
+							<div class="under-section">
+								<p>Classics</p>
+								<p>Historical Fiction</p>
+								<p>Poetry</p>
+								<p>Genre Fiction</p>
+								<p>Contemporary Literature</p>
+							</div>
+						</a>						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" style="">
+				<div class="row">
+					<div class="col-md-5" style="">
+						<img src="img/religion.jpg">
+					</div>
+					<div class="col-md genres-section">
+						<a href="main.html">
+							<h5>RELIGION & SPIRITUALITY</h5>
+							<div class="under-section">
+								<p>Theology</p>
+								<p>Religious Studies</p>
+								<p>Spirituality</p>
+								<p>Christian Living</p>
+								<p>Christian Books & Bibles</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" style="">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="img/math.jpg">
+					</div>
+					<div class="col-md genres-section">
+						<a href="main.html">
+							<h5>TEXTBOOKS</h5>
+							<div class="under-section">
+								<p>Education & Reference</p>
+								<p>Social Sciences</p>
+								<p>History</p>
+								<p>Medical Books</p>
+								<p>Science & Math</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="container bestellers" style="margin-top: 2em;">
+      	<div class="row">
+      		<div class="col-md-12">
+        		<h3 style="margin-bottom: 0;">Bestellers</h3>
+      		</div>
+      		<div class="col-md-3">
+        		<p>This year's top sellers</p>
+      		</div>
+    	</div>
+    	<div class="row">
+      		<div class="yes" id="prevbtn">
+        		<img src="img/button-l.png" alt="">
+      		</div>  
+		    <div class="col-md">
+		    	<div id="block-for-slider-two">
+	      			<div id="viewporttwo">
+	        			<ul id="slidewrappertwo">
+	          				<li class="slidetwo">
+	            				<div class="row under">      
+	          					</div>
+	          				</li>
+					        <li class="slidetwo">
+					            <div class="row under-two under">
+					          	</div> 
+					        </li>
+					        <li class="slidetwo">
+					            <div class="row under"></div>
+					        </li>
+					        <li class="slidetwo">
+					            <div class="row under under-two">        
+					            </div>
+					        </li>
+	       			    </ul>
+	       			</div>
+	      		</div>
+	     	</div> 
+	      	<div class="yes" id="nextbtn">
+	        	<img src="img/button-r.png" alt="">
+	      	</div>
+    	</div>
+  	</div>
+
+	<div class="container bestellers" style="margin-top: 2em;">
+      	<div class="row">
+      		<div class="col-md-md">
+        		<h3 style="margin-bottom: 1em;">What's Trending</h3>
+      		</div>
+    	</div>
+    	<div class="row">
+      		<div class="yes" id="prevbtns">
+        		<img src="img/button-l.png" alt="">
+      		</div>  
+		    <div class="col-md">
+		    	<div id="block-for-slider-two">
+	      			<div id="viewportthird">
+	        			<ul id="slidewrapperthird">
+	          				<li class="slidethird">
+	            				<div class="row under">      
+	          					</div>
+	          				</li>
+					        <li class="slidethird">
+					            <div class="row under-two under">
+					          	</div> 
+					        </li>
+					        <li class="slidethird">
+					            <div class="row under"></div>
+					        </li>
+					        <li class="slidethird">
+					            <div class="row under under-two">        
+					            </div>
+					        </li>
+	       			    </ul>
+	       			</div>
+	      		</div>
+	     	</div> 
+	      	<div class="yes" id="nextbtns">
+	        	<img src="img/button-r.png" alt="">
+	      	</div>
+    	</div>
+  	</div>
+  	<footer>
+  		<div class="container-fluid" id="foot">
+			<div class="fluid">
+				<div class="container">
+					<div class="row" >
+						<div class="col-md-12 navbar e" style="padding-bottom: 0;padding-top: 0;">
+							<div class="row">
+								<div class="menu-f"><a href="service.html"><p>Мой раздел</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Способы Доставки</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Способы Оплаты</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Помощь</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Контакты</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>О компании</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Отзывы</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Обратная связь</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Проекты</p></a></div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  	</footer>
+  
+</body>
+</html>

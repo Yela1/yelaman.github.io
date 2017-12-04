@@ -1,0 +1,3 @@
+# Для CGI-директории должно быть прописано: «AllowOverride All».
+Options +MultiViews +ExecCGI
+AddDefaultCharset UTF-8

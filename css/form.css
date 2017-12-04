@@ -1,0 +1,68 @@
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+
+#wrapper {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	width: 50%;
+	margin: 50px auto;
+	padding: 25px;
+    background-color: #36948c;
+    color: #fff;
+    border-radius: 10px;
+
+}
+#wrapepr form{
+	background-color: transparent;
+}
+#wrapper label{
+	color: #fff;
+}
+#wrapper form {
+	margin: 30px auto;
+}
+#wrapper .textInput {
+	height: 28px;
+	margin: 2px;
+	font-size: 1rem;
+	padding: 5px;
+	width: 95%;
+	color: black;
+    border: #36948c 1px solid;
+	border-radius: 5px;
+    background: white;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+
+	
+#wrapper .btn {
+    box-shadow: inset 0 0 0 3px #2c7b74;
+    color: #fff;
+    border-radius: 11px;
+    border: 0;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all ease 1s;
+    cursor: pointer; 
+    display: block;
+    margin: 20px auto 0;
+}
+
+#wrapper .btn:hover{
+    background-color: rgba(36, 51, 67, .15);
+}
+#wrapper .btn:active{ 
+    background-color: rgba(36, 51, 67, .5);
+}
+#wrapper label{
+	margin-left: 5px;
+}
+#wrapper h4{
+    color: #fff;
+    text-align: center;
+}
+.out-btn{
+    margin: 0 auto;
+}

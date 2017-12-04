@@ -1,0 +1,44 @@
+{
+	"1231": {
+		"name": "The Green Mile",
+		"autor":"Stephan King",
+		"img": "green.jpg",
+		"price":"$3.79"
+
+	},
+	"1232": {
+		"name": "Catching Fire",
+		"autor":"Suzanne Collins",
+		"img": "fire.jpg",
+		"price":"$3.79"
+
+	},
+	"1233": {
+		"name": "Harry Potter and the Prisoner of Azkaban",
+		"autor":"Joanne Rowling",
+		"img": "poter.jpg",
+		"price":"$5,00"
+
+	},
+	"1234": {
+		"name": "The Hobbit",
+		"autor":"J. R. R. Tolkien",
+		"img": "hobbit.jpg",
+		"price":"$5.99"
+
+	},
+	"1235": {
+		"name": "The way of Abay",
+		"autor":"M.Auezov",
+		"img": "abay.jpg",
+		"price":"$10,00"
+
+	},
+	"1236": {
+		"name": "The Hound of the Baskervilles",
+		"autor":"A. Conan Doyle",
+		"img": "hound.jpg",
+		"price":"$6,00"
+
+	}
+}

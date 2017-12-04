@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Final project</title>
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<ul class="topnav" id="myTopnav">
+      <li><a href="index.html" class="active">Все категории</a></li>
+      <li><a href="index.html" >Романтика</a></li>
+      <li><a href="index.html" >Триллер</a></li>
+      <li><a href="index.html" >Детектив</a></li>
+      <li><a href="index.html" >Фантастика</a></li>
+      <li><a href="index.html" >Фэнтэзи</a></li>
+      <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a></li>
+  </ul>
+	</div>
+	<div class="container" id="header">
+		<div class="row">
+			<div class="col-md-3 main-logo" style="padding-left: 0px; padding-right: 0;">
+				<a href="index.html">
+					<img class="header-logo" src="img/logo.png">
+				</a>
+			</div>
+			<div class="col-md-7 margin">
+				<form class="navbar-form navbar-search" role="search">
+	             	<div class="input-group">
+                    	<input type="text" class="form-control" placeholder="Search 7+ Million Books by Title, Author and Keyword" style="" > 
+		                <div class="input-group-btn ">
+		                    <button type="button" class="btn btn-search btn-info search">
+			                    <span class="glyphicon glyphicon-search"></span>
+			                    <span class="label-icon">Search</span>
+			                </button>
+		                </div>
+	               	</div>  
+	      		</form>   	    	
+	    	</div>
+			<div class="col-md-2 da">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-md-6 wish-list" style="">
+							<a href="cart.html">
+								<span><img src="img/cart.png" style="display: block;"></span>
+								<p class="heart">Корзина</p>
+							</a>
+						</div>
+						<div class="col-md-6 wish-list" style="padding-left: 1em;">
+							<a href="login.html">
+								<span><img src="img/login.png" style="display: block;" ></span>
+								<p class="heart">Войти</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="contianer-fluid">
+	<div class="menu-border">
+		<div class="container">
+			<div class="row" >
+				<div class="col-md-12 navbar" style="padding-bottom: 0;padding-top: 0;">
+					<div class="row">
+						<div class="menu-t"><a href="index.html"><p>Все категории</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Детские книги</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Подростковые</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Фантастика</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Романтика</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Триллер</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Учебники</p></a></div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<header class="main-head">
+        <div class="container">
+            <div class="row">
+                <div id="wrapper">
+                    <form  onsubmit="return Validate()" name="vform">
+                       <h4>Регистрация</h4>
+                        <div id="username_div">
+                            <label>Имя</label> <br>
+                            <input type="text" name="username" class="textInput">
+                            <div id="name_error"></div>
+                        </div>
+                        <div id="email_div">
+                            <label>Email</label> <br>
+                            <input type="email" name="email" class="textInput">
+                            <div id="email_error"></div>
+                        </div>
+                        <div id="password_div">
+                            <label>Пароль</label> <br>
+                            <input type="password" name="password" class="textInput">
+                        </div>
+                        <div id="pass_confirm_div">
+                            <label>Повторите пароль</label> <br>
+                            <input type="password" name="password_confirm" class="textInput">
+                            <div id="password_error"></div>
+                        </div>
+                        <div class="out-btn">
+                            <input type="submit" name="register" value="зарегистрироваться" class="btn">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+<footer>
+  		<div class="container-fluid" id="foot">
+			<div class="fluid">
+				<div class="container">
+					<div class="row" >
+						<div class="col-md-12 navbar e" style="padding-bottom: 0;padding-top: 0;">
+							<div class="row">
+								<div class="menu-f"><a href="service.html"><p>Мой раздел</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Способы Доставки</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Способы Оплаты</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Помощь</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Контакты</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>О компании</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Отзывы</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Обратная связь</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Проекты</p></a></div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  	</footer>
+  	<script defer>
+
+	// SELECTING ALL TEXT ELEMENTS
+	var username = document.forms['vform']['username'];
+	var email = document.forms['vform']['email'];
+	var password = document.forms['vform']['password'];
+	var password_confirm = document.forms['vform']['password_confirm'];
+
+	// SELECTING ALL ERROR DISPLAY ELEMENTS
+	var name_error = document.getElementById('name_error');
+	var email_error = document.getElementById('email_error');
+	var password_error = document.getElementById('password_error');
+
+	// SETTING ALL EVENT LISTENERS
+	username.addEventListener('blur', nameVerify, true);
+	email.addEventListener('blur', emailVerify, true);
+	password.addEventListener('blur', passwordVerify, true);
+
+   
+	function Validate() {
+		// validate username
+		if (username.value == "") {
+			username.style.border = "1px solid #EF5F54";
+			document.getElementById('username_div').style.color = "#EF5F54";
+			name_error.textContent = "Username is required";
+			username.focus();
+			return false;
+		}
+		// validate username
+		if (username.value.length < 3) {
+			username.style.border = "1px solid #EF5F54";
+			document.getElementById('username_div').style.color = "#EF5F54";
+			name_error.textContent = "Username must be at least 3 characters";
+			username.focus();
+			return false;
+		}
+		// validate email
+		if (email.value == "") {
+			email.style.border = "1px solid #EF5F54";
+			document.getElementById('email_div').style.color = "#EF5F54";
+			email_error.textContent = "Email is required";
+			email.focus();
+			return false;
+		}
+		// validate password
+		if (password.value == "") {
+			password.style.border = "1px solid #EF5F54";
+			document.getElementById('password_div').style.color = "#EF5F54";
+			password_confirm.style.border = "1px solid #EF5F54";
+			password_error.textContent = "Password is required";
+			password.focus();
+			return false;
+		}
+
+		// check if the two passwords match
+		if (password.value != password_confirm.value) {
+			password.style.border = "1px solid #EF5F54";
+			document.getElementById('pass_confirm_div').style.color = "#EF5F54";
+			password_confirm.style.border = "1px solid #EF5F54";
+			password_error.innerHTML = "The two passwords do not match";
+			return false;
+		}
+        alert('Вы зарегались успешно!');
+	}
+    
+	// event handler functions
+	function nameVerify() {
+		if (username.value != "") {
+			username.style.border = "1px solid #5e6e66";
+			document.getElementById('username_div').style.color = "#5e6e66";
+			name_error.innerHTML = "";
+			return true;
+		}
+	}
+
+	function emailVerify() {
+		if (email.value != "") {
+			email.style.border = "1px solid #5e6e66";
+			document.getElementById('email_div').style.color = "#5e6e66";
+			email_error.innerHTML = "";
+			return true;
+		}
+	}
+	function passwordVerify() {
+		if (password.value != "") {
+			password.style.border = "1px solid #5e6e66";
+			document.getElementById('pass_confirm_div').style.color = "#5e6e66";
+			document.getElementById('password_div').style.color = "#5e6e66";
+			password_error.innerHTML = "";
+			return true;
+		}
+
+		if (password.value === password_confirm.value) {
+			password.style.border = "1px solid #5e6e66";
+			document.getElementById('pass_confirm_div').style.color = "#5e6e66";
+			password_error.innerHTML = "";
+			return true;
+		}
+	}
+
+</script>
+</body>
+</html>

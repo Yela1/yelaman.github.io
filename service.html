@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Final project</title>
+
+	<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<ul class="topnav" id="myTopnav">
+      <li><a href="index.html" class="active">Все категории</a></li>
+      <li><a href="index.html" >Романтика</a></li>
+      <li><a href="index.html" >Триллер</a></li>
+      <li><a href="index.html" >Детектив</a></li>
+      <li><a href="index.html" >Фантастика</a></li>
+      <li><a href="index.html" >Фэнтэзи</a></li>
+      <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a></li>
+  </ul>
+	</div>
+	<div class="container" id="header">
+		<div class="row">
+			<div class="col-md-3 main-logo" style="padding-left: 0px; padding-right: 0;">
+				<a href="main.html">
+					<img class="header-logo" src="img/logo.png">
+				</a>
+			</div>
+			<div class="col-md-7 margin">
+				<form class="navbar-form navbar-search" role="search">
+	             	<div class="input-group">
+                    	<input type="text" class="form-control" placeholder="Search 7+ Million Books by Title, Author and Keyword" style="" > 
+		                <div class="input-group-btn ">
+		                    <button type="button" class="btn btn-search btn-info search">
+			                    <span class="glyphicon glyphicon-search"></span>
+			                    <span class="label-icon">Search</span>
+			                </button>
+		                </div>
+	               	</div>  
+	      		</form>   	    	
+	    	</div>
+			<div class="col-md-2 da">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-md-6 wish-list" style="">
+							<a href="cart.html">
+								<span><img src="img/cart.png" style="display: block;"></span>
+								<p class="heart">Корзина</p>
+							</a>
+						</div>
+						<div class="col-md-6 wish-list" style="padding-left: 1em;">
+							<a href="login.html">
+								<span><img src="img/login.png" style="display: block;" ></span>
+								<p class="heart">Войти</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="contianer-fluid">
+	<div class="menu-border">
+		<div class="container">
+			<div class="row" >
+				<div class="col-md-12 navbar" style="padding-bottom: 0;padding-top: 0;">
+					<div class="row">
+						<div class="menu-t"><a href="index.html"><p>Все категории</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Детские книги</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Подростковые</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Фантастика</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Романтика</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Триллер</p></a></div>
+						<div class="menu-t"><a href="index.html"><p>Учебники</p></a></div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="container-fluid map">
+		<div class="row">
+		<div class="col-md-6">
+			<div id="map"></div>
+		</div>
+		<div class="col-md-6">
+			<p><span>Адресс:</span> Абылайхана 1\1</p>
+			<p><span>Контакты:</span> 87787118193</p>
+
+			<p><span>О компании:</span> Со дня открытия 20 ноября 2007 года интернет-магазин Flip.kz продолжает успешно развиваться и расширять ассортимент товаров. Идея запуска интернет-магазина, способного стать лучшим среди онлайн-ритейлеров вдохновила нас на создание сайта, и уже через пару дней после его запуска появились первые клиенты и заказы.
+Сегодня Flip.kz предоставляет пользователям широкий ассортимент товаров, европейский уровень обслуживания и быструю доставку. Эти факторы позволяют нашей компании по праву занимать лидирующие позиции в Казахстане.</p>
+
+		</div>
+		</div>
+	</div>
+	<footer>
+  		<div class="container-fluid" id="foot">
+			<div class="fluid">
+				<div class="container">
+					<div class="row" >
+						<div class="col-md-12 navbar e" style="padding-bottom: 0;padding-top: 0;">
+							<div class="row">
+								<div class="menu-f"><a href="service.html"><p>Мой раздел</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Способы Доставки</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Способы Оплаты</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Помощь</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Контакты</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>О компании</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Отзывы</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Обратная связь</p></a></div>
+								<div class="menu-f"><a href="service.html"><p>Проекты</p></a></div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  	</footer>
+</body>
+</html>
